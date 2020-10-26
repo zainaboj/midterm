@@ -61,13 +61,90 @@ function RandomNumber(){
   document.getElementById("s8").innerHTML = d8;
   var d9 = numbers[NumberC()];
   document.getElementById("s9").innerHTML = d9;
+
 }
-function DisapearElent()
+var arraynumber=[];
+document.getElementById("myDiv1").addEventListener("mouseover", function()
 {
-  //document.querySelector("img").classList.remove("invisible");
-}
+  document.getElementById("s1").style.visibility="hidden";
+arraynumber.push(s1.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }});
+document.getElementById("myDiv2").addEventListener("mouseover", function()
+{
+  document.getElementById("s2").style.visibility="hidden";
+arraynumber.push(s2.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }});
+document.getElementById("myDiv3").addEventListener("mouseover", function()
+{
+  document.getElementById("s3").style.visibility="hidden";
+arraynumber.push(s3.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }});
+document.getElementById("myDiv4").addEventListener("mouseover", function()
+{
+  document.getElementById("s4").style.visibility="hidden";
+arraynumber.push(s4.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }});
+document.getElementById("myDiv5").addEventListener("mouseover", function()
+{
+  document.getElementById("s5").style.visibility="hidden";
+arraynumber.push(s5.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }});
+document.getElementById("myDiv6").addEventListener("mouseover", function()
+{
+  document.getElementById("s6").style.visibility="hidden";
+arraynumber.push(s6.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }}
+);document.getElementById("myDiv7").addEventListener("mouseover", function()
+{
+  document.getElementById("s7").style.visibility="hidden";
+arraynumber.push(s7.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }}
+);
+document.getElementById("myDiv8").addEventListener("mouseover", function()
+{
+  document.getElementById("s8").style.visibility="hidden";
+arraynumber.push(s8.textContent);
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }}
+);
+document.getElementById("myDiv9").addEventListener("mouseover", function()
+{
+  document.getElementById("s9").style.visibility="hidden";
+arraynumber.push(s9.textContent);
+if(arraynumber.length==9)
+  {
+    alert("The Numbers"+arraynumber);
+  }}
+);
 function NumberC()
 {
   var randomNumber1 = Math.floor(Math.random()* 9);
   return randomNumber1;
 }
+if(arraynumber.length==9)
+  {
+    alert(""+arraynumber);
+  }

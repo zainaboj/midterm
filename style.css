@@ -9,6 +9,48 @@
    height: auto;
 
 }
+.divmain{
+  background-color: gray;
+width: auto;
+border-width: 20px;
+border: dotted;
+text-align: center;
+padding: 5px;
+margin: auto;
+margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.Mydiv {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color:lightgray;
+  margin: 0;
+  padding: 0;
+}
+span {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
 img {
             width: 100%;}
 
@@ -55,18 +97,6 @@ font-family: monospace;
 
 
 }
-.Div2 {
-    background-color: #ff4b5c;
-  width: auto;
-  border-width: 20px;
-  border: dotted;
-  text-align: center;
-  padding: 5px;
-  margin: auto;
-  margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-}
    .p{
    text-decoration: underline;
    text-align: center;
@@ -83,6 +113,18 @@ font-family: monospace;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.button {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
  #text{
    font-size: 20px
